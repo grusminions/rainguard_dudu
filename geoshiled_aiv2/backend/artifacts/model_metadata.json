@@ -1,0 +1,31 @@
+{
+  "model_name": "GradientBoostingClassifier (scikit-learn)",
+  "library": "scikit-learn",
+  "trained_on_synthetic_data": true,
+  "n_samples": 4500,
+  "train_split": 3600,
+  "test_split": 900,
+  "feature_names": [
+    "rainfall",
+    "slope",
+    "soil_saturation",
+    "drainage_risk",
+    "elevation"
+  ],
+  "feature_importances": {
+    "rainfall": 0.5199,
+    "slope": 0.0594,
+    "soil_saturation": 0.1383,
+    "drainage_risk": 0.1624,
+    "elevation": 0.1201
+  },
+  "synthetic_holdout_metrics": {
+    "accuracy": 0.7256,
+    "roc_auc": 0.7824,
+    "brier_score": 0.1852,
+    "benchmark_rf_brier": 0.1888,
+    "benchmark_gb_brier": 0.1852
+  },
+  "trained_at_utc": "2026-11-25T09:15:01.706697+00:00",
+  "honesty_disclaimer": "Prototype classical scikit-learn model trained on synthetic demonstration data. Not calibrated on official IMD/MOSDAC flood observations."
+}
