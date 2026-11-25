@@ -1,0 +1,8 @@
+{
+  "name": "Geoshiled AI",
+  "description": "Flood-risk intelligence, experimental rainfall forecasting, Monte Carlo simulation, and responder readiness prototype for Smart India Hackathon 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
